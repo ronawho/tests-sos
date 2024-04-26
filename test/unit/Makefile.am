@@ -139,7 +139,6 @@ endif
 
 if HAVE_CXX
 check_PROGRAMS += \
-	cxx_test_shmem_complex \
 	cxx_test_shmem_g \
 	cxx_test_shmem_get \
 	cxx_test_shmem_p \
@@ -261,7 +260,6 @@ shmem_info_f_SOURCES = shmem_info_f.f90
 set_fetch_f_SOURCES = set_fetch_f.f90
 
 # C++ Tests
-cxx_test_shmem_complex_SOURCES = cxx_test_shmem_complex.cpp
 cxx_test_shmem_g_SOURCES = cxx_test_shmem_g.cpp
 cxx_test_shmem_get_SOURCES = cxx_test_shmem_get.cpp
 cxx_test_shmem_p_SOURCES = cxx_test_shmem_p.cpp
